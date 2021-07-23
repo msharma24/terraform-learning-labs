@@ -51,7 +51,7 @@ terraform version       # print the Terraform version
 terraform init          # Initialise the current directory
 terraform plan          # Dry run to see the Terraform configuration
 terraform apply         # Apply the Terraform code and build resources
-terraform destroy       # Refresh the state file
+terraform destroy       # Deletes the resources created 
 terraform output        # View Terraform outputs
 ```
  `terraform <subcommand> ->-help to view the command help information`
