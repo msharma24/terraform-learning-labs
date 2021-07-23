@@ -1,0 +1,19 @@
+#!/bin/bash
+# A script that install Ruby on Rails on Ubuntu.
+
+set -e
+
+#sudo apt-get update
+#sudo DEBIAN_FRONTEND=noninteractive apt-get install -y rails libsqlite3-dev \
+#    sqlite3 nodejs make gcc
+#rails -v
+
+
+cd ~
+curl -sL https://deb.nodesource.com/setup_8.x -o nodesource_setup.sh
+sudo bash nodesource_setup.sh
+sudo apt install nodejs
+nodejs -v
+npm -v
+sudo apt install build-essential
+
