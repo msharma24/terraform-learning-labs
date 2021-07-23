@@ -54,7 +54,7 @@ terraform apply         # Apply the Terraform code and build resources
 terraform destroy       # Deletes the resources created 
 terraform output        # View Terraform outputs
 ```
- `terraform <subcommand> ->-help to view the command help information`
+ `terraform <subcommand> -help to view the command help information`
  
 ### Authenticate Terraform with AWS
 [https://registry.terraform.io/providers/hashicorp/aws/latest/docs#authentication](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#authentication)
